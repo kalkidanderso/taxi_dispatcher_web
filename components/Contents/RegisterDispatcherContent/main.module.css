@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.mainContent {
+    margin: 0;
+    padding: 0;
+    margin-top: 85px;
+    margin-left: 350px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0.5;
+}
+.titleDivision {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 2px rgb(230, 223, 223);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.labler{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.dashboardAlert {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.otherDivision {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.addPassenger {
+ width: 200px;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+ 
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 20px;
+
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 20px;
+  padding: 20px;
+}
+
+.addPassenger:hover {
+  background-color: rgb(249,250,251);
+}
+
+.addPassenger:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.addPassenger::focus-visible {
+  box-shadow: none;
+}
+
+.formDiv {
+  background-color: #fff;
+  color: black;
+  width: 70%;
+  margin-top: 30px;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.25rem;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.formControl, .formControls {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.formControls {
+  margin-bottom: 20px;
+}
+.label {
+
+}
+.input {
+  border-radius: 5px;
+  height: 40px;
+  border-color: rgb(223, 215, 215);
+}
+
+.titleDivisions {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 60px;
+  border-bottom: solid 2px rgb(230, 223, 223);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: rgb(155, 149, 149);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title, .titleIcon {
+   margin: 10px;
+   margin-top: 20px;
+}
+
+.alert {
+  color: red;
+}
+.form input {
+  font-size: 19px;
+}
+.uploadIcon {
+  background-color: #D1D5DB;
+  font-size:500px;
+  width: 300px;
+  font-weight: 500px;
+  z-index: inherit;
+}
+.uploader {
+  background-color: #D1D5DB;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+  cursor: pointer;
+}
+.upload {
+  background-color: #D1D5DB;
+background: transparent;
+}
+
+
+.save {
+  width: 120px;
+   background-color: #FFFFFF;
+   border: 1px solid rgb(149, 151, 155);
+   border-radius: .5rem;
+   box-sizing: border-box;
+  
+   color: #111827;
+   font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   font-size: 20px;
+ 
+   font-weight: 600;
+   line-height: 1.25rem;
+   padding: .75rem 1rem;
+   text-align: center;
+   text-decoration: none #D1D5DB solid;
+   text-decoration-thickness: auto;
+   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+   cursor: pointer;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   margin: 20px;
+   padding: 15px 10px;
+ }
+ 
+ .save:hover {
+   background-color: rgb(249,250,251);
+ }
+ 
+ .save:focus {
+   outline: 2px solid transparent;
+   outline-offset: 2px;
+ }
+ 
+ .save::focus-visible {
+   box-shadow: none;
+ }
+ 
+ 
+.buttoner {
+  /* background-image: url("../../../icons/upload.png"); */
+  width: 100%;
+  height: 100px;
+  /* background-image: url("../../../icons/upload.png"); */
+  background-repeat: no-repeat;
+  /* margin-bottom: 100px; */
+  position: relative;
+  top: 10px;
+  z-index: 100;
+  bottom: 100px;
+
+
+}
+.inputer {
+  border-radius: 5px;
+  height: 40px;
+  border-color: rgb(223, 215, 215);
+  width: 100%;
+}
+.inputDivision {
+  background-color: white;
+  background-image: url("../../../icons/upload.png");
+  background-repeat: no-repeat;
+}
+.uploadImage {
+  top: 100px;
+  margin-bottom: 100px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.mapContainer {
+  height: 400px;
+  width: 100%;
+}
+
+.mapsidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  font-family: monospace;
+  font-size: 18px;
+  z-index: 1;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  margin: 0px;
+  padding: 0;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.loadingImage{
+  position: relative;
+  z-index: 10;
+  top: -350px;
+}

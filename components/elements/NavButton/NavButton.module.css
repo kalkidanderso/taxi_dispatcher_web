@@ -1,0 +1,25 @@
+
+  .friends, .friendsNew {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    margin-left: 70px;
+    height: 60px;
+  }
+  .friendsNew {
+    margin-left: 100px;
+  }
+  .image {
+    margin-right: 10px;
+  }
+  .imagesNew {
+     margin-right: 10px;
+  }
+  .friendsLabel {
+    margin: 0;
+
+  }

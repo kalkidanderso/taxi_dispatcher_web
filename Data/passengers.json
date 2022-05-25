@@ -1,0 +1,31 @@
+[
+    {
+        "id": "1",
+        "name": "Tebibu Solomon",
+        "email": "solomon@gmail.com",
+        "contact_no": "0917434443",
+        "city": "Addis Ababa", 
+        "sub_city":"Bole",
+        "reviews": ""
+      },
+      {
+        "id": "2",
+        "name": "Mesele Abera",
+        "email": "mesele2022@gmail.com",
+        "contact_no": "0917443344",
+        "city": "Addis Ababa", 
+        "sub_city":"Kaliti",
+        "reviews": ""
+       
+      },
+      {
+        "id": "3",
+        "name": "Yihun Endashaw",
+        "email": "someone21@email.com",
+        "contact_no": "0917545664",
+        "city": "Addis Ababa", 
+        "sub_city":"Bole",
+        "reviews": ""
+        
+      }
+]

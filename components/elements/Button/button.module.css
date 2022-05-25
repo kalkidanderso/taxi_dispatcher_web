@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.indexier {
+   /* height: 20px; */
+
+}
+.home{
+    /* padding: 10px; */
+    /* margin: 5px; */
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    /* height: 100%; */
+    margin-bottom: 10px;
+}
+.account-div{
+  height: max-content;
+  width: max-content;
+  margin: 10px;
+}
+.account-div:hover{
+  background-color: #F0F2F5;
+}
+.account-image{
+  cursor: pointer;
+}
