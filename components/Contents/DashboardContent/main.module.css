@@ -11,6 +11,14 @@
     font-family: Arial, Helvetica, sans-serif;
     z-index: 0.5;
 }
+.upperDivision {
+    border-bottom: 2px solid red;
+
+}
+.lowerDivision {
+
+}
+
 .titleDivision {
     padding: 0px;
     margin: 0px;
