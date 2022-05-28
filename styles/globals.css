@@ -37,3 +37,7 @@ tbody tr:hover {
 
 }
 
+:root {
+  --dark: #636363;
+  --waterrey: #F4F1F1;
+}

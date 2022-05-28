@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef} from 'react'
-import classes from "./main.module.css";
+import classes from "./map.module.css";
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import { columns } from '../../Data/TableData';

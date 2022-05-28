@@ -8,7 +8,8 @@ import styles from "./dashboard.module.css";
 
 import dynamic from 'next/dynamic';
 const SideBar = new dynamic(() => import("../../components/SideBar/SideBar"), {ssr: false});
-const NavBar = new dynamic(() => import("../../components/NavBar"), {ssr: false});
+import NavBar from "../../components/NavBar"
+import FooterBar from "../../components/FooterBar"
 const MainContent = new dynamic(() => import("../../components/Contents/DashboardContent/index"), {ssr: false});
 
 export default function Dashboard() {
@@ -19,6 +20,8 @@ export default function Dashboard() {
         <SideBar actives="Dashboard"/> 
         <MainContent />
         </div>
+        <FooterBar />
     </div>
   )
 }
+
