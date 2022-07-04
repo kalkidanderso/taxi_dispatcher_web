@@ -22,3 +22,29 @@
   border-width: 4px;
   padding: 10px;
 }
+
+.accountName {
+  margin-right: 60px;
+}
+
+.accountIcon {
+  transform: scale(1.8);
+  margin-left: 20px;
+  margin-top: 7px;
+
+}
+
+.dispatcher {
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.changeToPending {
+    background: #555;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.4s;
+    font-size: 30px;
+    padding: 10;
+}

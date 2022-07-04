@@ -146,7 +146,7 @@ export default function index() {
          return  response.json()
         })
        .then(data => {
-         console.log(data.message);
+        //  console.log(data.message);
          if(data.stat === "OK"){
           setFirstName("");
           setLastName("");
@@ -166,7 +166,7 @@ export default function index() {
        })
        .catch((error) =>{
 
-       console.log(error);
+      //  console.log(error);
        changeLoadingStatus(false);
        })
   }
